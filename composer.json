@@ -1,0 +1,26 @@
+{
+    "name": "maximaster/atoa",
+    "description": "Convert a value to another value using your own callables.",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "scripts": {
+        "check": "kahlan",
+        "test": "kahlan"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\Atoa\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Maximaster\\Atoa\\Spec\\Stub\\": "spec/Stub/"
+        }
+    },
+    "authors": [{"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"}]
+}
